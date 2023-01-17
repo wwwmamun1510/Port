@@ -21,6 +21,12 @@ I'm a full stack developer...
 
 
 ![BS-1](https://user-images.githubusercontent.com/97294949/212965506-34078d72-4121-4233-96ca-b84c82a31fb7.GIF)
+![BS-2](https://user-images.githubusercontent.com/97294949/212965719-bd474601-1c41-4723-8a5a-a20a7367b409.GIF)
+![BS-3GIF](https://user-images.githubusercontent.com/97294949/212965768-11aef10d-c523-4c4b-a166-184569c23c95.GIF)
+![BS-4](https://user-images.githubusercontent.com/97294949/212965816-407a37e0-3f20-4c61-8e26-4ef7c72feaae.GIF)
+![BS-7](https://user-images.githubusercontent.com/97294949/212965953-56c8986d-37bf-4cd7-ae94-216468e89275.GIF)
+
+
 
 
 ## Installation
