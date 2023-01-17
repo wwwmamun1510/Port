@@ -68,7 +68,7 @@ Install port with Gitbash
   php artisan make:model Sponsor -m
   php artisan make:model Testimonial -m
 
-Route
+//Route
 
 <?php
 
