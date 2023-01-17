@@ -1,64 +1,209 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Portfolio
 
-## About Laravel
+A brief description of what this project does and who it's for
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Acknowledgements
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Create a P)lan of Study,a career plan,map your personal development
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+## 🚀 About Me
+I'm a full stack developer...
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+## Installation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Install port with Gitbash
 
-## Code of Conduct
+```bash
+  php artisan serve
+  php artisan make:controller AreaController
+  php artisan make:controller BannerController
+  php artisan make:controller BlogController
+  php artisan make:controller ContactController
+  php artisan make:controller EducationController
+  php artisan make:controller FactController
+  php artisan make:controller FrontendController
+  php artisan make:controller HomeController
+  php artisan make:controller IntroductionController
+  php artisan make:controller LogoController
+  php artisan make:controller MessageController
+  php artisan make:controller ProfileController
+  php artisan make:controller ServiceController
+  php artisan make:controller SocialController
+  php artisan make:controller SponsorController
+  php artisan make:controller TestimonialController
+  php artisan make:model Area -m
+  php artisan make:model Banner-m
+  php artisan make:model Blog -m
+  php artisan make:model Contact -m
+  php artisan make:model Education -m
+  php artisan make:model Fact -m
+  php artisan make:model Front -m
+  php artisan make:model Home -m
+  php artisan make:model Introduction -m
+  php artisan make:model Logo -m
+  php artisan make:model Message -m
+  php artisan make:model Profile -m
+  php artisan make:model Service -m
+  php artisan make:model Social -m
+  php artisan make:model Sponsor -m
+  php artisan make:model Testimonial -m
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Route
 
-## Security Vulnerabilities
+<?php
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+use App\Http\Controllers\AreaController;
+use App\Http\Controllers\BannerController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BrandController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EducationController;
+use App\Http\Controllers\FactController;
+use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\IntroductionController;
+use App\Http\Controllers\LogoController;
+use App\Http\Controllers\MessageController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SocialController;
+use App\Http\Controllers\SponsorController;
+use App\Http\Controllers\TestimonialController;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
-## License
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Auth::routes();
+
+Route::get('/home', [HomeController::class,'index'])->name('home');
+Route::get('/', [FrontendController::class,'welcome']);
+Route::get('/about', [FrontendController::class,'about']);
+Route::get('/contact', [FrontendController::class,'contact']);
+Route::post('/add/users', [HomeController::class,'add_users'])->name('add.users');
+Route::get('/admin', [FrontendController::class, 'admin']);
+
+//Message
+Route::get('/message', [MessageController::class,'index']);
+Route::post('add-message',[MessageController::class,'store']);
+Route::get('edit-message/{id}',[MessageController::class,'edit']);
+Route::put('update-message/{id}', [MessageController::class,'update']);
+Route::delete('delete-message/{id}', [MessageController::class,'delete']);
+
+
+
+//Testimonial
+Route::get('/testimonial', [TestimonialController::class,'index']);
+Route::post('add-testimonial',[TestimonialController::class,'store']);
+Route::get('edit-testimonial/{id}',[TestimonialController::class,'edit']);
+Route::put('update-testimonial/{id}', [TestimonialController::class,'update']);
+Route::delete('delete-testimonial/{id}', [TestimonialController::class,'delete']);
+
+//Introduction
+Route::get('/introduction', [IntroductionController::class,'index']);
+Route::post('add-introduction',[IntroductionController::class,'store']);
+Route::get('edit-introduction/{id}',[IntroductionController::class,'edit']);
+Route::put('update-introduction/{id}', [IntroductionController::class,'update']);
+Route::delete('delete-introduction/{id}', [IntroductionController::class,'delete']);
+
+//Area
+Route::get('/area', [AreaController::class,'index']);
+Route::post('add-area',[AreaController::class,'store']);
+Route::get('/edit-area/{id}',[AreaController::class,'edit']);
+Route::put('update-area/{id}', [AreaController::class,'update']);
+Route::delete('delete-area/{id}', [AreaController::class,'delete']);
+
+
+//Service
+Route::get('/service', [ServiceController::class,'index']);
+Route::post('add-service',[ServiceController::class,'store']);
+Route::get('edit-service/{id}',[ServiceController::class,'edit']);
+Route::put('update-service/{id}', [ServiceController::class,'update']);
+Route::delete('delete-service/{id}', [ServiceController::class,'delete']);
+
+
+//Blog
+Route::get('/blog', [BlogController::class,'index']);
+Route::post('add-blog',[BlogController::class,'store']);
+Route::get('edit-blog/{id}',[BlogController::class,'edit']);
+Route::get('/edit/blog',[BlogController::class,'edit_blog']);
+Route::put('update-blog/{id}', [BlogController::class,'update']);
+Route::delete('delete-blog/{id}', [BlogController::class,'delete']);
+
+//Blog
+Route::get('/logo', [LogoController::class,'index']);
+Route::post('add-logo',[LogoController::class,'store']);
+Route::get('/edit-logo/{id}',[LogoController::class,'edit']);
+Route::put('update-logo/{id}', [LogoController::class,'update']);
+Route::delete('delete-logo/{id}', [LogoController::class,'delete']);
+
+//Banner
+Route::get('/banner', [BannerController::class,'index']);
+Route::post('add-banner',[BannerController::class,'store']);
+Route::get('/edit-banner/{id}',[BannerController::class,'edit']);
+Route::put('update-banner/{id}', [BannerController::class,'update']);
+Route::delete('delete-banner/{id}', [BannerController::class,'delete']);
+
+//Banner
+Route::get('/contact', [ContactController::class,'index']);
+Route::post('add-contact',[ContactController::class,'store']);
+Route::get('/edit-contact/{id}',[ContactController::class,'edit']);
+Route::put('update-contact/{id}', [ContactController::class,'update']);
+Route::delete('delete-contact/{id}', [ContactController::class,'delete']);
+
+//Sponsor
+Route::get('/sponsor', [SponsorController::class,'index']);
+Route::post('add-sponsor',[SponsorController::class,'store']);
+Route::get('edit-sponsor/{id}',[SponsorController::class,'edit']);
+Route::put('update-sponsor/{id}', [SponsorController::class,'update']);
+Route::delete('delete-sponsor/{id}', [SponsorController::class,'delete']);
+
+//Education
+Route::get('/education',[EducationController::class,'index']);
+Route::post('add-education',[EducationController::class,'store']);
+Route::get('edit-education/{id}',[EducationController::class,'edit']);
+Route::put('update-education/{id}', [EducationController::class,'update']);
+Route::delete('delete-education/{id}', [EducationController::class,'delete']);
+
+//Social
+Route::get('/social',[SocialController::class,'index']);
+Route::post('add-social',[SocialController::class,'store']);
+Route::get('edit-social/{id}',[SocialController::class,'edit']);
+Route::put('update-social/{id}', [SocialController::class,'update']);
+Route::delete('delete-social/{id}', [SocialController::class,'delete']);
+
+//profile
+Route::get('/profile/edit', [ProfileController::class, 'profile']);
+Route::post('/profile/update', [ProfileController::class, 'update']);
+Route::post('/password/update', [ProfileController::class, 'pass_update']);
+Route::post('/photo/change', [ProfileController::class, 'photo_edit']);
+
+
+
+```
+    
