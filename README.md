@@ -20,6 +20,9 @@ Create a P)lan of Study,a career plan,map your personal development
 I'm a full stack developer...
 
 
+![BS-1](https://user-images.githubusercontent.com/97294949/212965506-34078d72-4121-4233-96ca-b84c82a31fb7.GIF)
+
+
 ## Installation
 
 Install port with Gitbash
