@@ -31,6 +31,16 @@ I'm a full stack developer...
 
 ## Installation
 
+//First Project Installation Command
+composer create-project laravel/laravel Port
+Composer require laravel/ui
+php artisan ui bootstrap --auth
+npm Install
+npm run dev
+php artisan migrate
+//End Installation
+
+
 Install port with Gitbash
 
 ```bash
